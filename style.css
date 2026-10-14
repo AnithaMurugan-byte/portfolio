@@ -328,13 +328,29 @@ button:hover {
     padding: 13px 30px;
 }
 
-/* Footer */
-footer {
-    background: #203c5d;
-    color: white;
+/* Your existing CSS */
+.education {
+    /* Your education styles */
+}
+
+/* Add the footer CSS below */
+.footer {
+    background: #dff4ff;
+    color: #000000;
     text-align: center;
-    padding: 25px 10px;
-    font-size: 16px;
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 3px solid #87ceeb;
+}
+
+.footer p {
+    margin: 8px 0;
+    font-size: 14px;
+}
+
+.footer p:first-child {
+    font-weight: bold;
+    color: #0077b6;
 }
 
 /* Mobile responsive design */
