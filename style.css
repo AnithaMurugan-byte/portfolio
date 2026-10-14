@@ -110,84 +110,102 @@ button:hover {
     font-size: 18px;
 }
 
-/* Education Section */
+/* ===== Education Section ===== */
 .education {
-    background: linear-gradient(135deg, #10172d, #182b50, #243e72);
-    color: white;
-    padding: 50px 5.5%;
-    min-height: 600px;
+    background: linear-gradient(135deg, #f4efff, #fff5f8);
+    padding: 60px 5.5%;
+    color: #29213d;
 }
 
 .education h2 {
-    color: #829bff;
-    font-size: 38px;
-    margin-bottom: 150px;
+    color: #6c3bbd;
+    font-size: 36px;
+    margin-bottom: 35px;
+    text-align: left;
 }
 
+/* Education Card */
 .education-card {
-    max-width: 650px;
-    border: 2px solid #829bff;
-    border-radius: 22px;
+    max-width: 750px;
+    background: #ffffff;
+    border: 1px solid #e1d3ff;
+    border-left: 6px solid #8957d5;
+    border-radius: 16px;
     padding: 30px;
-    background: rgba(255, 255, 255, 0.03);
-    box-shadow: 0 0 15px rgba(90, 120, 255, 0.12);
+    margin-bottom: 25px;
+    box-shadow: 0 8px 24px rgba(90, 55, 140, 0.10);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+/* Hover Effect */
+.education-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 28px rgba(90, 55, 140, 0.18);
+}
+
+/* Graduation Icon */
 .education-icon {
     font-size: 35px;
-    margin-bottom: 25px;
+    margin-bottom: 18px;
 }
 
+/* Degree Heading */
 .education-card h3 {
-    color: white;
-    font-size: 24px;
-    margin-bottom: 22px;
+    color: #59309b;
+    font-size: 23px;
+    margin-bottom: 18px;
 }
 
+/* Education Details */
 .education-card p {
-    color: #e2e8ff;
-    font-size: 17px;
+    color: #393346;
+    font-size: 16px;
     line-height: 1.8;
+    margin-bottom: 8px;
 }
 
+/* Bold Labels */
 .education-card strong {
-    color: #ffffff;
+    color: #6c3bbd;
 }
 
+/* College Name */
+.education-card .college {
+    color: #a04482;
+    font-weight: bold;
+}
+
+/* Learning Heading */
 .learning-title {
-    color: #91f5e5;
-    letter-spacing: 4px;
+    color: #a04482;
     font-size: 15px;
-    margin-top: 100px;
+    letter-spacing: 3px;
     text-align: center;
+    margin-top: 45px;
 }
 
+/* Mobile Responsive */
 @media (max-width: 600px) {
     .education {
         padding: 35px 20px;
     }
 
     .education h2 {
-        font-size: 32px;
-        margin-bottom: 80px;
+        font-size: 29px;
     }
 
     .education-card {
         padding: 22px;
     }
 
+    .education-card h3 {
+        font-size: 20px;
+    }
+
     .education-card p {
         font-size: 15px;
         overflow-wrap: anywhere;
     }
-}
-
-.education-description {
-    color: #e2e8ff;
-    font-size: 16px;
-    line-height: 1.8;
-    margin-top: 8px;
-    text-align: justify;
 }
 
 /* Common sections */
