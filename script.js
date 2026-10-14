@@ -6,5 +6,5 @@ function showMessage() {
 
 function contactMessage() {
     window.location.href =
-        "mailto:student@example.com?subject=Portfolio%20Contact";
+        "mailto:sumathianitha0316@gmail.com?subject=Portfolio%20Contact";
 }
